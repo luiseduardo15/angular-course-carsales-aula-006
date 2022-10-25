@@ -7,9 +7,11 @@ import { InputTextModule } from 'primeng/inputtext';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
+import { CadastroComponent } from './cadastro/cadastro/cadastro.component';
+
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
