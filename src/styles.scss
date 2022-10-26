@@ -18,3 +18,12 @@ body {
 .text-center {
   text-align: center;
 }
+
+/*responsivo*/
+.content {width:910px;}
+
+@media (max-width: 480px) {
+
+.content {width:100%;}
+
+}

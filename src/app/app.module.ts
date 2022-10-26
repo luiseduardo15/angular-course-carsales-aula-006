@@ -8,10 +8,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { CadastroComponent } from './cadastro/cadastro/cadastro.component';
+import { InicialComponent } from './pages/inicial/inicial/inicial.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroComponent, ],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
