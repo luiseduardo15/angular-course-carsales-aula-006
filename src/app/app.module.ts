@@ -10,10 +10,11 @@ import { LoginComponent } from './views/login/login.component';
 import { CadastroComponent } from './cadastro/cadastro/cadastro.component';
 import { InicialComponent } from './pages/inicial/inicial/inicial.component';
 import { NavbarComponent } from './sharepage/navbar/navbar/navbar.component';
+import { PedidoComponent } from './pages/inicial/inicial/pedido/pedido/pedido.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, ],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, PedidoComponent, ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

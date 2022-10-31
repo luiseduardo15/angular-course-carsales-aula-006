@@ -3,13 +3,6 @@
 $background-color: #07336b !important;
 $font-color: #fff !important;
 
-body {
-  background-image: url("./assets/inicial.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  opacity: 0.97;
-}
 
 .ui-card {
   background-color: $background-color;
