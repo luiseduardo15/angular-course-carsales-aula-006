@@ -9,10 +9,11 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { CadastroComponent } from './cadastro/cadastro/cadastro.component';
 import { InicialComponent } from './pages/inicial/inicial/inicial.component';
+import { NavbarComponent } from './sharepage/navbar/navbar/navbar.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, ],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
