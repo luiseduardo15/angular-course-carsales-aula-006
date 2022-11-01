@@ -1,7 +1,11 @@
+body{
+  background-color: #FFFFFF;
+}
+
 .banner{
   background-image: url(../../../../assets/inicial.jpg);
   width: 100%;
-  height: 800px;
+  height: 803px;
   background-position: center top;
   background-size: cover;
   opacity: 0.95;
@@ -45,25 +49,69 @@
 }
 
 .text{
-  background-color: #B3CBD2;;
+  background-color: #B3CBD2;
   width: 20%;
   height: 30%;
   left: 347px;
   position: absolute;
   text-decoration: none;
-  background-color: #B3CBD2;
   color: #0F4284;
-  padding: 16px 20px;
-  border-radius: 15px;
+  padding: 40px 20px;
+  border-radius: 15%;
   font-weight:bold;
-  font-size: 20px;
+  font-size: 22px;
   font-family: 'Hammersmith One', sans-serif;
 }
 
-form{
-  margin-top: 5%;
-  width:50%;
-  padding: 10px 10px;
-  height: 800px;
+.form-control{
+  width: 23%;
+  height: 35%;
+  top: 140px;
+  left: 8%;
+  position: relative;
+  z-index: 1;
+}
 
+button{
+  width: 23%;
+  height: 35%;
+  top: 200px;
+  left: 8%;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  background-color: #EF7225;
+  padding: 3px 20px;
+  border-radius: 15px;
+}
+
+button a{
+  color: white;
+  
+}
+
+.container h2{
+  background-color: #B3CBD2;
+  width: 20%;
+  height: 30%;
+  left: 65%;
+  position: absolute;
+  text-decoration: none;
+  color: #0F4284;
+  padding: 40px 20px;
+  border-radius: 15%;
+  font-weight:bold;
+  font-size: 22px;
+  font-family: 'Hammersmith One', sans-serif;
+  top: 93%;
+}
+
+.container iframe{
+  width: 20%;
+  height: 25%;
+  left: 65%;
+  position: absolute;
+  text-decoration: none;
+  padding: 30px 50px;
+  top: 100%;
 }
