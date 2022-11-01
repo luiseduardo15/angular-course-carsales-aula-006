@@ -11,10 +11,12 @@ import { CadastroComponent } from './cadastro/cadastro/cadastro.component';
 import { InicialComponent } from './pages/inicial/inicial/inicial.component';
 import { NavbarComponent } from './sharepage/navbar/navbar/navbar.component';
 import { PedidoComponent } from './pages/inicial/inicial/pedido/pedido/pedido.component';
+import { ControleComponent } from './pages/inicial/inicial/controle/controle/controle.component';
+import { PagamentoComponent } from './pages/inicial/inicial/pagamento/pagamento/pagamento.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, PedidoComponent, ],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, PedidoComponent, ControleComponent, PagamentoComponent, ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

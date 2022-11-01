@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './views/login/login.component';
 import { InicialComponent } from './pages/inicial/inicial/inicial.component';
 import { PedidoComponent } from './pages/inicial/inicial/pedido/pedido/pedido.component';
+import { ControleComponent } from './pages/inicial/inicial/controle/controle/controle.component';
+import { PagamentoComponent } from './pages/inicial/inicial/pagamento/pagamento/pagamento.component';
 
 
 const routes: Routes = [
@@ -12,7 +14,8 @@ const routes: Routes = [
   {path: 'cadastro', component: CadastroComponent},
   {path: 'login', component: LoginComponent},
   {path: 'cadastro-pedido', component: PedidoComponent},
-
+  {path: 'controle-pedido', component: ControleComponent},
+  {path: 'pagamento', component: PagamentoComponent},
 ];
 
 @NgModule({

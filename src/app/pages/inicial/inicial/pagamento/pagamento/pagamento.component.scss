@@ -1,0 +1,41 @@
+.banner{
+  background-image:url(../../../../../../assets/pexels-tima-miroshnichenko-6169005.jpg);
+  width: 40%;
+  height: 955px;
+  background-position: center top;
+  background-size: cover;
+  opacity: 0.95;
+
+}
+
+.banner img{
+  width: 288px;
+  height: 293px;
+  right: 50px;
+  top: 150px;
+  border-radius: 28px;
+}
+
+.status{
+  left: 1120px;
+  top: 250px;
+  position: absolute;
+  text-decoration: none;
+  background-color: #B3CBD2;
+  padding: 40px 120px;
+  border-radius: 15px;
+}
+
+.status h2{
+  font-weight: bold;
+  font-size: 20px;
+  color: #0F4284;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  color: #000;
+  background-color: #D0E1F5;
+}
+
+
