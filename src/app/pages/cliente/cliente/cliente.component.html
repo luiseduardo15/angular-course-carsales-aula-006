@@ -3,33 +3,29 @@
 
 <app-navbar> </app-navbar>
 
-
-<div class="banner">
- <img src="../../../../assets/logoseis.png" width="300">
-
+<body>
+  <div class="logo">
+    <img src="../../../../assets/logoseis.png" width="300">
+  </div>
+  
  <div class="status">
    <h2>CADASTRO DO CLIENTE </h2>
   <div class="p-col-12">
     <input class="p-col-12" type="text" pInputText placeholder="Nome completo"/>
   </div>
+
   <div class="p-col-12">
-    <label for=""></label>
     <input class="p-col-12" type="text"  pInputText placeholder="E-mail"/>
   </div>
+
   <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="CPF" />
+    <input class="p-col-5" type="text"  pInputText placeholder="CPF"/> 
+    <input class="p-col-5" type="text"  pInputText placeholder="Telefone"/>
   </div>
   <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Telofne"/>
-  </div>
-  <div class="p-col-12">
-    <label for=""></label>
     <input class="p-col-12" type="text"  pInputText placeholder="Cidade"/>
   </div>
   <div class="p-col-12">
-    <label for=""></label>
     <input class="p-col-12" type="text"  pInputText placeholder="CEP"/>
   </div>
   <button
@@ -39,3 +35,8 @@
             class="p-col-4"
           ></button>
 </div>
+
+<div class="text">
+  <a routerLink="/cadastro-pedido" class="mb-9">Próxima</a>
+</div>
+</body>

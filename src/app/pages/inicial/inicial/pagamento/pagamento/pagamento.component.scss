@@ -1,29 +1,28 @@
 .banner{
   background-image:url(../../../../../../assets/pexels-tima-miroshnichenko-6169005.jpg);
   width: 40%;
-  height: 955px;
+  padding: 24.1% 18%;
   background-position: center top;
   background-size: cover;
   opacity: 0.95;
-
 }
 
 .banner img{
-  width: 288px;
-  height: 293px;
-  right: 50px;
-  top: 150px;
-  border-radius: 28px;
+  position: absolute;
+  width: 15%;
+  left: 3%;
+  top: 10%;
+  border-radius: 10%;
 }
 
 .status{
-  left: 1120px;
-  top: 250px;
+  left: 58%;
+  top: 20%;
   position: absolute;
   text-decoration: none;
-  background-color: #B3CBD2;
-  padding: 40px 120px;
-  border-radius: 15px;
+  background-color: #D0E1F5;
+  padding: 3% 3%;
+  border-radius: 6%;
 }
 
 .status h2{
@@ -40,7 +39,16 @@ button{
 
 .btn-conf{
   color: #000;
-  background-color: #58bb58;
   right: -65%;
 }
+
+.text{
+  left: 100%;
+  top: 245%;
+  position: absolute;
+  background-color: #EF7225;
+  padding: 3px 20px;
+  border-radius: 15px;
+}
+
 
