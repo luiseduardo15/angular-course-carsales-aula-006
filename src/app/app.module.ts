@@ -13,10 +13,11 @@ import { NavbarComponent } from './sharepage/navbar/navbar/navbar.component';
 import { PedidoComponent } from './pages/inicial/inicial/pedido/pedido/pedido.component';
 import { ControleComponent } from './pages/inicial/inicial/controle/controle/controle.component';
 import { PagamentoComponent } from './pages/inicial/inicial/pagamento/pagamento/pagamento.component';
+import { ClienteComponent } from './pages/cliente/cliente/cliente.component';
 
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, PedidoComponent, ControleComponent, PagamentoComponent, ],
+  declarations: [AppComponent, LoginComponent, CadastroComponent, InicialComponent, NavbarComponent, PedidoComponent, ControleComponent, PagamentoComponent, ClienteComponent ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
