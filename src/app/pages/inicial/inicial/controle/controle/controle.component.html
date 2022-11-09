@@ -2,45 +2,27 @@
 
 <app-navbar> </app-navbar>
 
-
 <div class="banner">
  <img src="../../../../assets/logoseis.png" width="300">
 
- <div class="status">
-   <H2>CADASTRO DO VOLUME </H2>
-  <div class="p-col-12">
-    <input class="p-col-12" type="text" pInputText placeholder="Peso (Kg)"/>
+ <div class="container">
+  <div class="col-lg-18">
+    <input type="text" class="form-control" placeholder="Digite o código de rastreamento">
+    <button>
+      <a routerLink="" class="mb-9"><i class="bi bi-search"></i>PESQUISAR</a>
+    </button>
   </div>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Largura"/>
-  </div>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Comprimento (cm)" />
-  </div>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Altura"/>
   </div>
 
-  <h3>DESTINO:</h3>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Destinatário"/>
-  </div>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="CEP"/>
-  </div>
-  <div class="p-col-12">
-    <label for=""></label>
-    <input class="p-col-12" type="text"  pInputText placeholder="Base de Destino"/>
-  </div>
-  <button
-            pButton
-            type="button"
-            label="Confirmar"
-            class="p-col-4"
-          ></button>
+  <div>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Status</th>
+            <th></th>
+          </tr>
+        </thead>
+    </table>
 </div>
+
