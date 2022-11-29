@@ -14,7 +14,7 @@ import { PedidoComponent } from './pages/inicial/inicial/pedido/pedido/pedido.co
 import { ControleComponent } from './pages/inicial/inicial/controle/controle/controle.component';
 import { PagamentoComponent } from './pages/inicial/inicial/pagamento/pagamento/pagamento.component';
 import { ClienteComponent } from './pages/cliente/cliente/cliente.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -34,7 +34,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     CardModule,
     InputTextModule,
-    ButtonModule
+    ButtonModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
