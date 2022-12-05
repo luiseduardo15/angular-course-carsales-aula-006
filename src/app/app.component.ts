@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,26 +6,16 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./app.component.scss'],
 })
 
-export class AppComponent {
-  title = 'SEIS';
+export class AppComponent  {
 
-  formulario: FormGroup;
 
-  constructor (private formBuilder: FormBuilder) {}
+  constructor () {}
 
   ngOnit(): void{
-    this.formulario = this.formBuilder.group({
-      id: [''],
-      nome: [''],
-      cpf: [''],
-      cidade: [''],
-      uf: [''],
-      telefone: [''],
-      email: [''],
-      senha: ['']
-    
-    });
+
   }
+
+
 }
 
 

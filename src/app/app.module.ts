@@ -15,18 +15,19 @@ import { ControleComponent } from './pages/inicial/inicial/controle/controle/con
 import { PagamentoComponent } from './pages/inicial/inicial/pagamento/pagamento/pagamento.component';
 import { ClienteComponent } from './pages/cliente/cliente/cliente.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AuthModule } from './auth/auth.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent, 
-    LoginComponent, 
-    CadastroComponent, 
-    InicialComponent, 
-    NavbarComponent, 
-    PedidoComponent, 
-    ControleComponent, 
-    PagamentoComponent, 
+    AppComponent,
+    LoginComponent,
+    CadastroComponent,
+    InicialComponent,
+    NavbarComponent,
+    PedidoComponent,
+    ControleComponent,
+    PagamentoComponent,
     ClienteComponent ],
   imports: [
     BrowserModule,
@@ -35,7 +36,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CardModule,
     InputTextModule,
     ButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent],
